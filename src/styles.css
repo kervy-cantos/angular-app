@@ -262,3 +262,6 @@ app-root {
 .justify-space-evenly {
   justify-content: space-evenly;
 }
+.hidden {
+  display: none;
+}

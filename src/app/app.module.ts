@@ -7,9 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { provideHttpClient } from '@angular/common/http';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent],
