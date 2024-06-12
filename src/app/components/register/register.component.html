@@ -1,0 +1,21 @@
+<div class="row justify-center align-center" style="height: 100vh;">
+    <div class="col gap-1">
+      <p-card header="Register" >
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div >
+            <div class="p-field">
+              <label for="username">Username</label>
+              <input id="username" type="text" pInputText formControlName="username" />
+            </div>
+            <div class="p-field">
+              <label for="password">Password</label>
+              <input id="password" type="password" pPassword formControlName="password" />
+            </div>
+            <div class="p-field">
+              <button type="submit" pButton label="Register" ></button>
+            </div>
+          </div>
+        </form>
+      </p-card>
+    </div>
+  </div>

@@ -1,0 +1,12 @@
+.p-rating-cancel-item {
+  display: none !important;
+}
+
+p-card .p-card-content {
+  display: flex;
+  justify-content: center;
+  width: 640px;
+}
+.p-inputtext {
+  width: 100%;
+}

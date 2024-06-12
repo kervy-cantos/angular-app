@@ -1,0 +1,21 @@
+<div class="p-grid p-justify-center p-align-center" style="height: 100vh;">
+    <div class="p-col-12 p-md-4">
+      <p-card header="Login">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="p-fluid">
+            <div class="p-field">
+              <label for="username">Username</label>
+              <input id="username" type="text" pInputText formControlName="username" />
+            </div>
+            <div class="p-field">
+              <label for="password">Password</label>
+              <input id="password" type="password" pPassword formControlName="password" />
+            </div>
+            <div class="p-field">
+              <button type="submit" pButton label="Login"></button>
+            </div>
+          </div>
+        </form>
+      </p-card>
+    </div>
+  </div>

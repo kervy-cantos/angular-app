@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "online-shop-api-c67fb": {
+      "hosting": {
+        "angular-app": [
+          "online-shop-api-c67fb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "online-shop-api-c67fb"
+  }
+}
